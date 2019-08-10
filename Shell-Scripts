@@ -1,3 +1,4 @@
 #List
 ls
 ls -la
+echo "Hi from Shell"
