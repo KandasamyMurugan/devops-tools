@@ -1,5 +1,6 @@
 - name: Creating first playbook
   hosts: all
-  task:
+  tasks:
     - name: ping 
+      ping: 
   
