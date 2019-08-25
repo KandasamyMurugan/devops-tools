@@ -5,3 +5,7 @@
        package:
          name: httpd
          state: present
+     - name: START service
+       service:
+         name: httpd
+         state: started
