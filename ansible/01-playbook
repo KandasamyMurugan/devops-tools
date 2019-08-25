@@ -9,6 +9,6 @@
   tasks:
     - name: File creation
       file:
-        path: /tmp/demo
+        path: /tmp/demo.yml
         state: touch
   
