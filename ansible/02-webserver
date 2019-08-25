@@ -8,4 +8,4 @@
      - name: START service
        service:
          name: httpd
-         state: stopped
+         state: restarted
