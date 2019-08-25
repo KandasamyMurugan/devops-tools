@@ -3,4 +3,12 @@
   tasks:
     - name: ping 
       ping: 
+
+- name: Creating Empty file
+  hosts: all
+  tasks:
+    - name: File creation
+      file:
+        path: /tmp/demo
+        state: touch
   
