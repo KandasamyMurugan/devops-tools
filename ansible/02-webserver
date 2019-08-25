@@ -1,0 +1,7 @@
+- name: Webserver
+  hosts: all
+  tasks:
+     - name: HTTP SERVER
+       package:
+         name: httpd
+         state: present
