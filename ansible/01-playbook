@@ -11,4 +11,4 @@
       file:
         path: /root/devops-tools/ansible/sample
         state: touch
-  
+        check_mode: no
