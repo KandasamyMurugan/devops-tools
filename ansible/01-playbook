@@ -9,6 +9,6 @@
   tasks:
     - name: File creation
       file:
-        path: /devops-tools/ansible/sample
+        path:/devops-tools/ansible/sample
         state: touch
         
