@@ -1,5 +1,5 @@
 - name: Prompting Variables
-  hosts: all
+- hosts: all
   vars_prompt: 
     - prompt: Enter URL
       name: URL
