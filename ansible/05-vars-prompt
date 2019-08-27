@@ -3,8 +3,11 @@
   vars_prompt: 
     - prompt: Enter URL
       name: URL
+      private: yes
+    - prompt: What is your username?
       name: username
       private: yes
+
 
   tasks:
     - name: Print URL
