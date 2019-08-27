@@ -9,14 +9,10 @@
     - name: Print URL
       debug:
         msg: "URL = {{URL}}"
-        
-    - name: username
-      prompt: "What is your username?"
+  vars_prompt:
+    - prompt: "What is your username?"
+      name: username
       private: no
-    
-    - name: password
-      prompt: "What is your password?"
-
   tasks:
-    - debug:
+       debug:
         msg: 'Logging in as {{ username }}'
