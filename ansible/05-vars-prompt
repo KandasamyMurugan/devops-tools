@@ -11,6 +11,9 @@
     - prompt: What is your password?
       name: password
       private: yes
+    - prompt: Which version do you want to install?
+      name: Version
+      default: "3.0"
 
 
   tasks:
