@@ -13,5 +13,9 @@
     - name: Print URL
       debug:
         msg: "URL = {{URL}}"
+
+  tasks:
+    - name: Print username
+      debug:
         msg: 'Logging in as {{ username }}'
   
