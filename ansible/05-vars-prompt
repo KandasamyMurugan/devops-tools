@@ -8,6 +8,9 @@
     - prompt: What is your username?
       name: username
       private: yes
+    - prompt: What is your password?
+      name: password
+      private: yes
 
 
   tasks:
@@ -18,4 +21,5 @@
     - name: Print username
       debug:
         msg: 'Logging in as {{ username }}'
-  
+
+ 
