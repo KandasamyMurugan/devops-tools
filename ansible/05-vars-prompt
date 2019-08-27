@@ -3,10 +3,12 @@
   vars_prompt: 
     - prompt: Enter URL
       name: URL
+      name1: username
       private: yes
 
   tasks:
     - name: Print URL
       debug:
         msg: "URL = {{URL}}"
+        msg: 'Logging in as {{ username }}'
   
