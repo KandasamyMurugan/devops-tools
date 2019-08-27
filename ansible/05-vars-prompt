@@ -1,5 +1,5 @@
 - name: Prompting Variables
-- hosts: all
+  hosts: all
   vars_prompt: 
     - prompt: Enter URL
       name: URL
@@ -9,10 +9,4 @@
     - name: Print URL
       debug:
         msg: "URL = {{URL}}"
-  vars_prompt:
-    - prompt: "What is your username?"
-      name: username
-      private: no
-  tasks:
-       debug:
-        msg: 'Logging in as {{ username }}'
+  
