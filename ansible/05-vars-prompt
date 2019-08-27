@@ -4,7 +4,7 @@
     - prompt: Enter URL
       name: URL
       private: yes
-- name: Prompting username    
+
     - prompt: What is your username?
       name: username
       private: yes
