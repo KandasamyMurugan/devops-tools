@@ -1,6 +1,6 @@
 - name: Print URL from file
   hosts: all
-  vars_file:
+  vars_files:
     - 05-vars-promt.yml
   tasks:
     - name: Print URL
