@@ -1,14 +1,11 @@
 - name: Print URL from file
   hosts: all
   vars_files:
-    - 05-vars-promt.yml
+    - 01-vars.yml
   tasks:
     - name: Print URL
       debug:
         msg: "URL = {{URL}}"
 
-    - name: Print username
-      debug:
-        msg: 'Logging in as {{ username }}'
-
+    
     
