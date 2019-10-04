@@ -1,0 +1,14 @@
+- name: Creating first playbook
+  hosts: all
+  tasks:
+    - name: ping 
+      ping: 
+
+- name: Creating Empty file
+  hosts: all
+  tasks:
+    - name: File creation
+      file:
+        path: /tmp/sample
+        state: touch
+        

@@ -31,4 +31,4 @@ echo -e "\e[33;34m1.Name Kandasamy\n2.Age 32\e[0m"
 
 echo -e "\e[35m1.Name\t:Dhamu\n2.Company\t:Aspire\e[33m\n3.Place\t:Chennai\e[32m\n4.Exp\t:4years\e[0m"
 
-echo "this is for small change"
+echo -e "\e[34mHappy Independence Day\e[0m"

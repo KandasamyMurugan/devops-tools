@@ -1,0 +1,11 @@
+- name: Webserver
+  hosts: all
+  tasks:
+     - name: HTTP SERVER
+       package:
+         name: httpd
+         state: present
+     - name: START service
+       service:
+         name: httpd
+         state: restarted

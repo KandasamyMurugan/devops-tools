@@ -1,0 +1,28 @@
+- name: Prompting Variables
+  hosts: all
+  vars_prompt: 
+    - prompt: Enter URL
+      name: URL
+      private: yes
+
+    - prompt: What is your username?
+      name: username
+      private: yes
+    - prompt: What is your password?
+      name: password
+      private: yes
+    - prompt: Which version do you want to install?
+      name: Version
+      default: "3.0"
+
+
+  tasks:
+    - name: Print URL
+      debug:
+        msg: "URL = {{URL}}"
+
+    - name: Print username
+      debug:
+        msg: 'Logging in as {{ username }}'
+
+ 

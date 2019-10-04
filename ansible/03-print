@@ -1,0 +1,6 @@
+- name: Printing message
+  hosts: all
+  tasks:
+    - name: Print Hello World
+      debug:
+        msg: Welcome to kandadevops.tk
